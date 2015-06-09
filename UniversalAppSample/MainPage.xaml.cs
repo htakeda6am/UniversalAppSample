@@ -30,7 +30,8 @@ namespace UniversalAppSample
 
         private void button2_Click(object sender, RoutedEventArgs e)
         {
-            Debug.WriteLine("asdfadsfad");
+            var message = "asdfadsfad";
+            Debug.WriteLine(message);
         }
     }
 }
